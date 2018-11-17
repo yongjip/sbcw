@@ -6,8 +6,6 @@ class Vector:
     def __init__(self, *elements):
         if len(elements) < 2:
             raise ValueError('At least two elements are required')
-        # if not all([isinstance(x, Number) for x in elements]):
-        #     return NotImplemented
         self.elements = elements
 
     def __eq__(self, other):
@@ -49,6 +47,7 @@ class Vector:
     def _ventor_len_check(self, other):
         if len(self.elements) != len(other.elements):
             raise ValueError(f'A vector of size {len(self)} is expected')
+
 
 class Range:
 
