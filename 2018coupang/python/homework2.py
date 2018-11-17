@@ -77,23 +77,6 @@ class Range:
 
 
 
-
-"""
-Problem 1.1
-
-벡터는 최소 두 개 이상의 원소로 이루어진 값이다. 다음과 같이 생성할 수 있다.
-
-Problem 1.2
-
-이처럼 쉽게 인지할 수 있는 형식으로 출력하는 것이 여러모로 도움이 된다. 이렇게 나올 수 있도록 built-in 메소드를 오버라이드 해보자.
-
-1.3
-overwrite len 
-
-2.4 
-negation
-"""
-
 if __name__ == '__main__':
     vector1 = Vector(1, 2, 3, 4)
     vector2 = Vector(1,2,2,3)
