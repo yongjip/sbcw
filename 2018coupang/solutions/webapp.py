@@ -42,3 +42,12 @@ def new_post():
 if __name__=='__main__':
    app.run(port=8000, debug=True)
    # db.create_all()
+
+
+"""
+curl -i -XPOST --data "subject=Test&body=body1234" localhost:8000/posts
+
+sqlite3 webapp.db
+select * from posts;
+
+"""
