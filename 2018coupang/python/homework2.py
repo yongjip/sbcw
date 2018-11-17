@@ -1,5 +1,6 @@
 from numbers import Number
 
+
 class Vector:
 
     def __init__(self, *elements):
@@ -74,7 +75,6 @@ class Range:
 
     def __reversed__(self):
         return iter(list(Range(self.start,self.end,self.step))[::-1])
-
 
 
 if __name__ == '__main__':
